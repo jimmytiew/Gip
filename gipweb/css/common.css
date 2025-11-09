@@ -1,0 +1,98 @@
+/* ========== GLOBAL ========== */
+/* ===== 平滑滚动效果 ===== */
+html {
+    scroll-behavior: smooth;
+}
+
+/* ===== 固定导航栏样式 ===== */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 100px;
+    z-index: 999;
+}
+
+/* ===== 预留顶部空间避免被挡 ===== */
+body {
+    padding-top: 100px;
+    /* 与导航栏高度一致或略多一点 */
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    color: #a67c52;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alike', sans-serif;
+    background-color: #ffffff;
+    color: #111;
+    line-height: 1.6;
+}
+
+.container {
+    width: 85%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ========== NAVBAR ========== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar .logo img {
+    height: 50px;
+    width: auto;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.navbar ul li a {
+    color: #111;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navbar ul li a:hover {
+    color: #a67c52;
+}
